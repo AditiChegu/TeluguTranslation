@@ -87,7 +87,7 @@ function checkAnswer() {
     // Ensure the user has entered an answer before submitting
     if (!userAnswer) {
         feedbackElement.textContent = "Please enter an answer!";
-        feedbackElement.style.color = 'D06224';
+        feedbackElement.style.color = '#c8291a';
         return;
     }
 
@@ -104,12 +104,12 @@ function checkAnswer() {
             spread: 70,
             origin: { y: 0.6 }
         });
-        feedbackElement.style.color = '#8A8635';
+        feedbackElement.style.color = '#356d46';
     } else {
         incorrectAnswers++;
         streak = 0;  // Reset streak on wrong answer
         feedbackElement.textContent = `Wrong! It is: ${questionBank[currentQuestionIndex].answer}`;
-        feedbackElement.style.color = '#D06224';
+        feedbackElement.style.color = '#c8291a';
     }
 
     // Update the wrong answer counter
