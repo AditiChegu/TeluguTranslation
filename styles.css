@@ -1,5 +1,5 @@
 body {
-    font-family: 'Noto Sans Telugu', sans-serif;
+    font-family: 'Noto Sans Telugu';
     margin: 0;
     padding: 0;
     display: flex;
@@ -7,25 +7,37 @@ body {
     justify-content: center; /* Center the content vertically */
     align-items: center; /* Center the content horizontally */
     height: 100vh;
-    background-color: #EAC891;
-    color: #AE431E;
+    color: #c8291a;
     text-align: center; /* Center text inside body */
     overflow: hidden; /* Prevent scrolling */
+    background-image: url("https://i.pinimg.com/474x/f4/a3/7a/f4a37a2f66ba97dcaa11ac9d935ec8fd.jpg");
+    background-repeat: repeat;
+    background-position: center; /* Center the image */
 }
 
-.container {
-    display: flex;
+h1, h2{
+    font-family: 'Playfair Display';
+    font-weight: 200;
+}
+
+button, p, input {
+    font-family: 'PT Serif';
+}
+
+#quiz-container {
+    background-color: #f7f2df; /* Solid background for the container */
     flex-direction: column; /* Stack input and button vertically */
     align-items: center; /* Center input and button horizontally */
     width: 80%; /* Set width as a percentage of the screen */
-    max-width: 600px; /* Optional: Ensure a max-width for large screens */
+    max-width: 500px; /* Optional: Ensure a max-width for large screens */
     padding: 20px; /* Optional: Padding for spacing */
     box-sizing: border-box; /* Make sure padding doesn't affect width */
+    border-radius: 10px; /* Optional: Rounded corners for the container */
 }
 
 input[type="text"] {
     padding: 10px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 100%; /* Ensure the input takes the full width of its container */
     font-size: 16px;
     box-sizing: border-box; /* Include padding and border in width */
@@ -35,8 +47,8 @@ input[type="text"] {
 button {
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #AE431E;
-    color: #EAC891;
+    background-color: #fba114;
+    color: #f7f2df;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -45,7 +57,7 @@ button {
 }
 
 button:hover {
-    background-color: #a13a18;
+    background-color: #db8a08;
 }
 
 #feedback {
@@ -55,9 +67,12 @@ button:hover {
 }
 
 #results-container {
+    background-color: #f7f2df; /* Solid background for the container */
+    font-family: 'Roboto Condensed';
+    max-width: 200px;
     text-align: center;
     word-wrap: break-word; /* Ensure results wrap instead of expanding */
-    width: 100%; /* Make sure the results container takes up the full width */
+    /* width: 100%; Make sure the results container takes up the full width */
     max-width: 600px; /* Optional: Set a max-width for consistency */
     margin-top: 20px;
     padding: 10px; /* Add padding for spacing */
