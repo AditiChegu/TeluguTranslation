@@ -1,35 +1,35 @@
 // Question bank with Telugu answers
 const questionBank = [
-    { question: "I drank", answer: "నేను తాగాను", type: "SV (Past)" },  
-    { question: "You drank", answer: "నువ్వు తాగావు", type: "SV (Past)" },  
-    { question: "You (formal) drank", answer: "మీరు తాగారు", type: "SV (Past)" },  
-    { question: "He (informal) drank", answer: "వాడు తాగాడు", type: "SV (Past)" },  
-    { question: "He (formal) drank", answer: "అతను తాగారు", type: "SV (Past)" },  
-    { question: "He (v. formal) drank", answer: "ఆయన తాగారు", type: "SV (Past)" },  
-    { question: "She (informal) drank", answer: "అది తాగింది", type: "SV (Past)" },  
-    { question: "She (formal) drank", answer: "ఆమె తాగారు", type: "SV (Past)" },  
-    { question: "She (v. formal) drank", answer: "ఆవిడ తాగారు", type: "SV (Past)" },  
-    { question: "It drank", answer: "అది తాగింది", type: "SV (Past)" },  
-    { question: "We (inclusive) drank", answer: "మనం తాగాం", type: "SV (Past)" },  
-    { question: "We (exclusive) drank", answer: "మెం తాగాం", type: "SV (Past)" },  
-    { question: "You all drank", answer: "మీరు తాగారు", type: "SV (Past)" },  
-    { question: "They (people) drank", answer: "వాళ్ళు తాగారు", type: "SV (Past)" },  
-    { question: "They (animals) drank", answer: "అవి తాగాయి", type: "SV (Past)" },  
-    { question: "I did", answer: "నేను చేశాను", type: "SV (Past)" },  
-    { question: "You did", answer: "నువ్వు చేసావు", type: "SV (Past)" },  
-    { question: "You (formal) did", answer: "మీరు చేసాడు", type: "SV (Past)" },  
-    { question: "He (informal) did", answer: "వాడు చేసాడు", type: "SV (Past)" },  
-    { question: "He (formal) did", answer: "అతను చేసాడు", type: "SV (Past)" },  
-    { question: "He (v. formal) did", answer: "ఆయన చేసాడు", type: "SV (Past)" },  
-    { question: "She (informal) did", answer: "అది చేసింది", type: "SV (Past)" },  
-    { question: "She (formal) did", answer: "ఆమె చేసాడు", type: "SV (Past)" },  
-    { question: "She (v. formal) did", answer: "ఆవిడ చేసాడు", type: "SV (Past)" },  
-    { question: "It did", answer: "అది చేసింది", type: "SV (Past)" },  
-    { question: "We (inclusive) did", answer: "మనం చేశాం", type: "SV (Past)" },  
-    { question: "We (exclusive) did", answer: "మెం చేశాం", type: "SV (Past)" },  
-    { question: "You all did", answer: "మీరు చేసాడు", type: "SV (Past)" },  
-    { question: "They (people) did", answer: "వాళ్ళు చేసాడు", type: "SV (Past)" },  
-    { question: "They (animals) did", answer: "అవి చేశాయి", type: "SV (Past)" }
+    { question: "I drank", answer: "నేను తాగాను", type: "SV" },  
+    { question: "You drank", answer: "నువ్వు తాగావు", type: "SV" },  
+    { question: "You (formal) drank", answer: "మీరు తాగారు", type: "SV" },  
+    { question: "He (informal) drank", answer: "వాడు తాగాడు", type: "SV" },  
+    { question: "He (formal) drank", answer: "అతను తాగారు", type: "SV" },  
+    { question: "He (v. formal) drank", answer: "ఆయన తాగారు", type: "SV" },  
+    { question: "She (informal) drank", answer: "అది తాగింది", type: "SV" },  
+    { question: "She (formal) drank", answer: "ఆమె తాగారు", type: "SV" },  
+    { question: "She (v. formal) drank", answer: "ఆవిడ తాగారు", type: "SV" },  
+    { question: "It drank", answer: "అది తాగింది", type: "SV" },  
+    { question: "We (inclusive) drank", answer: "మనం తాగాం", type: "SV" },  
+    { question: "We (exclusive) drank", answer: "మెం తాగాం", type: "SV" },  
+    { question: "You all drank", answer: "మీరు తాగారు", type: "SV" },  
+    { question: "They (people) drank", answer: "వాళ్ళు తాగారు", type: "SV" },  
+    { question: "They (animals) drank", answer: "అవి తాగాయి", type: "SV" },  
+    { question: "I did", answer: "నేను చేశాను", type: "SV" },  
+    { question: "You did", answer: "నువ్వు చేసావు", type: "SV" },  
+    { question: "You (formal) did", answer: "మీరు చేసాడు", type: "SV" },  
+    { question: "He (informal) did", answer: "వాడు చేసాడు", type: "SV" },  
+    { question: "He (formal) did", answer: "అతను చేసాడు", type: "SV" },  
+    { question: "He (v. formal) did", answer: "ఆయన చేసాడు", type: "SV" },  
+    { question: "She (informal) did", answer: "అది చేసింది", type: "SV" },  
+    { question: "She (formal) did", answer: "ఆమె చేసాడు", type: "SV" },  
+    { question: "She (v. formal) did", answer: "ఆవిడ చేసాడు", type: "SV" },  
+    { question: "It did", answer: "అది చేసింది", type: "SV" },  
+    { question: "We (inclusive) did", answer: "మనం చేశాం", type: "SV" },  
+    { question: "We (exclusive) did", answer: "మెం చేశాం", type: "SV" },  
+    { question: "You all did", answer: "మీరు చేసాడు", type: "SV" },  
+    { question: "They (people) did", answer: "వాళ్ళు చేసాడు", type: "SV" },  
+    { question: "They (animals) did", answer: "అవి చేశాయి", type: "SV" }
 ];
 
 let currentQuestionIndex = 0;
@@ -39,7 +39,11 @@ let correctAnswers = 0;
 
 // New tracking variables for each question type
 let questionTypeStats = {
-    SV (Past): { total: 0, correct: 0 }
+    SV: { total: 0, correct: 0 },
+    // general: { total: 0, correct: 0 },
+    // geography: { total: 0, correct: 0 },
+    // science: { total: 0, correct: 0 },
+    // literature: { total: 0, correct: 0 }
 };
 
 const questionElement = document.getElementById('question');
@@ -147,7 +151,11 @@ function restartGame() {
     correctAnswers = 0;
     currentQuestionIndex = 0;
     questionTypeStats = {
-        SV (Past): { total: 0, correct: 0 }
+        SV: { total: 0, correct: 0 },
+        // general: { total: 0, correct: 0 },
+        // geography: { total: 0, correct: 0 },
+        // science: { total: 0, correct: 0 },
+        // literature: { total: 0, correct: 0 }
     };
     shuffleQuestions();  // Shuffle the question order again on restart
     displayQuestion();
