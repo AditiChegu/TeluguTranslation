@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quiz Game</h1>
+        <p id="question"></p>
+        <div id="container">
+            <input type="text" id="user-answer" placeholder="Your answer" lang="te">
+            <button id="submit-answer">Submit Answer</button>
+            <button id="next-question">Next Question</button>
+            <button id="view-results" style="display: none;">View Results</button>
+        </div>
+        <!-- <input type="text" id="user-answer" placeholder="Your answer" lang="te">
+        <button id="submit-answer">Submit Answer</button>
+        <button id="next-question">Next Question</button>
+        <button id="view-results" style="display: none;">View Results</button> -->
+        <p id="feedback"></p>
+        <p id="wrong-answer-counter">Incorrect Answers: 0</p> <!-- Wrong answer counter -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: 'Noto Sans Telugu', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    height: 100vh;
+    background-color: #EAC891;
+    color: #AE431E;
+    text-align: center; /* Center text inside body */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack input and button vertically */
+    align-items: center; /* Center input and button horizontally */
+    width: 80%; /* Set width as a percentage of the screen */
+    max-width: 600px; /* Optional: Ensure a max-width for large screens */
+    padding: 20px; /* Optional: Padding for spacing */
+    box-sizing: border-box; /* Make sure padding doesn't affect width */
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%; /* Ensure the input takes the full width of its container */
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding and border in width */
+    word-wrap: break-word; /* Ensure long words break and wrap */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #AE431E;
+    color: #EAC891;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Ensure the button takes the full width of its container */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+button:hover {
+    background-color: #a13a18;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+    word-wrap: break-word; /* Ensure feedback text wraps instead of overflowing */
+}
+
+#results-container {
+    text-align: center;
+    word-wrap: break-word; /* Ensure results wrap instead of expanding */
+    width: 100%; /* Make sure the results container takes up the full width */
+    max-width: 600px; /* Optional: Set a max-width for consistency */
+    margin-top: 20px;
+    padding: 10px; /* Add padding for spacing */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
