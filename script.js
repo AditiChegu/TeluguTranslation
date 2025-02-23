@@ -39,11 +39,7 @@ let correctAnswers = 0;
 
 // New tracking variables for each question type
 let questionTypeStats = {
-    SV: { total: 0, correct: 0 },
-    // general: { total: 0, correct: 0 },
-    // geography: { total: 0, correct: 0 },
-    // science: { total: 0, correct: 0 },
-    // literature: { total: 0, correct: 0 }
+    SV (Past): { total: 0, correct: 0 }
 };
 
 const questionElement = document.getElementById('question');
@@ -151,11 +147,7 @@ function restartGame() {
     correctAnswers = 0;
     currentQuestionIndex = 0;
     questionTypeStats = {
-        SV: { total: 0, correct: 0 },
-        // general: { total: 0, correct: 0 },
-        // geography: { total: 0, correct: 0 },
-        // science: { total: 0, correct: 0 },
-        // literature: { total: 0, correct: 0 }
+        SV (Past): { total: 0, correct: 0 }
     };
     shuffleQuestions();  // Shuffle the question order again on restart
     displayQuestion();
