@@ -1,33 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telugu Translation</title>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <title>Results</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="quiz-container">
-        <h1>TRANSLATE:</h1>
-        <p id="question"></p>
-        <div id="container">
-            <input type="text" id="user-answer" placeholder="Your answer" lang="te">
-            <button id="submit-answer">Submit Answer</button>
-            <button id="next-question">Next Question</button>
-            <button id="view-results" style="display: none;">View Results</button>
-        </div>
-        <!-- <input type="text" id="user-answer" placeholder="Your answer" lang="te">
-        <button id="submit-answer">Submit Answer</button>
-        <button id="next-question">Next Question</button>
-        <button id="view-results" style="display: none;">View Results</button> -->
-        <p id="feedback"></p>
-        <p id="wrong-answer-counter">Incorrect Answers: 0</p> <!-- Wrong answer counter -->
+    <div id="results-container">
+        <h1>Game Over!</h1>
+        <p>Translation Streak: <span id="correct-count"></span></p>
+        
+        <h2>Question Type Breakdown:</h2>
+        <div id="question-type-stats"></div>
+
+        <button onclick="restartGame()">Play Again</button>
     </div>
-    <script src="script.js"></script>
+    <script src="results.js"></script>
 </body>
 </html>
