@@ -15,7 +15,12 @@ body {
     background-position: center; /* Center the image */
 }
 
-h1, h2{
+h1{
+    font-family: 'Playfair Display';
+    font-weight: 200;
+}
+
+h2 {
     font-family: 'Playfair Display';
     font-weight: 200;
 }
@@ -24,7 +29,7 @@ button, p, input {
     font-family: 'PT Serif';
 }
 
-#quiz-container {
+#quiz-container{
     background-color: #f7f2df; /* Solid background for the container */
     flex-direction: column; /* Stack input and button vertically */
     align-items: center; /* Center input and button horizontally */
@@ -68,7 +73,6 @@ button:hover {
 
 #results-container {
     background-color: #f7f2df; /* Solid background for the container */
-    font-family: 'Roboto Condensed';
     max-width: 200px;
     text-align: center;
     word-wrap: break-word; /* Ensure results wrap instead of expanding */
